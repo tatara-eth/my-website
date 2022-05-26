@@ -1,8 +1,8 @@
 {
-  "name": "web3AboutMe",
+  "name": "About",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tatara-eth.github.io",
+  "homepage": "https://tatara-eth.github.io/my-website/",
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
