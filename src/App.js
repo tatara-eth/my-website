@@ -37,30 +37,32 @@ function App() {
                   </ul>
               </nav>
           </div>
-          <div className="about-section">
-              <h1>Hello, I'm <span className="brand-color">tatara.eth</span>!</h1>
-              <p>
-                  I’m currently a web2 software engineer
-                  diving head-first into the web3 space.
-              </p>
-              <p>
-                  I spend most of my time
-                  participating in DAOs and developing smart contracts.
-              </p>
-              <p>
-                  I have a strong conviction that everybody will be using web3 in
-                  the future and I want to collaborate with others
-                  to accelerate this future!
-              </p>
-              <p>
-                  If you’re interested in building in this space,
-                  let’s connect! Send me a follow request and
-                  DM on <a className="brand-color" href={socialLinks.twitter} rel="noopener noreferrer" target="_blank">Twitter</a>.
-              </p>
+          <div className="main-content">
+              <div className="about-section">
+                  <h1>Hello, I'm <span className="brand-color">tatara.eth</span>!</h1>
+                  <p>
+                      I’m currently a web2 software engineer
+                      diving head-first into the web3 space.
+                  </p>
+                  <p>
+                      I spend most of my time
+                      participating in DAOs and developing smart contracts.
+                  </p>
+                  <p>
+                      I have a strong conviction that everybody will be using web3 in
+                      the future and I want to collaborate with others
+                      to accelerate this future!
+                  </p>
+                  <p>
+                      If you’re interested in building in this space,
+                      let’s connect! Send me a follow request and
+                      DM on <a className="brand-color" href={socialLinks.twitter} rel="noopener noreferrer" target="_blank">Twitter</a>.
+                  </p>
+              </div>
+              <InfoCard Title="Find me participating in" Activity={groups}/>
+              <InfoCard Title="POAPs" Activity={poaps}/>
+              <InfoCard Title="Proof of knowledge" Activity={pok}/>
           </div>
-          <InfoCard Title="Find me participating in" Activity={groups}/>
-          <InfoCard Title="POAPs" Activity={poaps}/>
-          <InfoCard Title="Proof of knowledge" Activity={pok}/>
       </div>
   );
 }
