@@ -1,4 +1,8 @@
 import "./App.scss";
+import InfoCard from "./components/InfoCard";
+import groups from "./models/groups";
+import poaps from "./models/poaps";
+import pok from "./models/pok";
 
 function App() {
     const walletAddress = process.env.REACT_APP_WALLET_ADDRESS;
@@ -54,6 +58,9 @@ function App() {
                   DM on <a className="brand-color" href={socialLinks.twitter} rel="noopener noreferrer" target="_blank">Twitter</a>.
               </p>
           </div>
+          <InfoCard Title="Find me participating in" Activity={groups}/>
+          <InfoCard Title="POAPs" Activity={poaps}/>
+          <InfoCard Title="Proof of knowledge" Activity={pok}/>
       </div>
   );
 }
