@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tatara-eth.github.io/static/css/main.16acdacb.css",
-    "main.js": "/tatara-eth.github.io/static/js/main.5b28febd.js",
-    "index.html": "/tatara-eth.github.io/index.html",
-    "main.16acdacb.css.map": "/tatara-eth.github.io/static/css/main.16acdacb.css.map",
-    "main.5b28febd.js.map": "/tatara-eth.github.io/static/js/main.5b28febd.js.map"
+    "main.css": "/static/css/main.16acdacb.css",
+    "main.js": "/static/js/main.5b28febd.js",
+    "index.html": "/index.html",
+    "main.16acdacb.css.map": "/static/css/main.16acdacb.css.map",
+    "main.5b28febd.js.map": "/static/js/main.5b28febd.js.map"
   },
   "entrypoints": [
     "static/css/main.16acdacb.css",
